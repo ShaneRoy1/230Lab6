@@ -31,7 +31,7 @@ adder.
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
 The largest number a two bit adder can handle is 7 (111) in the case 
 where you are adding 11 + 11 with a carry in (6 + LSB Cin). When you
-go over, that number, it would result in overflow because you would 
+go over that number, it would result in overflow because you would 
 have a number which is 4-bit wide, for example 8 which is 1000, when
 our sum is supposed to be 3-bit wide.
 
